@@ -1,0 +1,17 @@
+Bu proje, çalışma deneyimi (YearsExperience) ile maaş (Salary) arasındaki ilişkiyi inceleyen bir linear regression modeli uygulamasıdır.
+Model Performans Metrikleri
+R² (R-Squared) = 0.9024: Model, maaş verisindeki değişkenliğin %90.24'ünü açıklamaktadır. Bu oldukça yüksek bir değerdir ve modelin veriyi çok iyi temsil ettiğini gösterir.
+
+MSE = 49,830,896.86: Ortalama kare hata değeri, tahminler ile gerçek değerler arasındaki farkların karelerinin ortalamasıdır.
+
+RMSE = 7,059: Ortalama karekök hata değeri, modelin tahminleri ortalama ±7,059 birim hata payına sahiptir.
+
+Model Katsayıları ve Yorumları
+Sabit Terim (b₀) = 24,380: Sıfır yıl deneyime sahip bir çalışanın ortalama başlangıç maaşını temsil eder. Bu, işe yeni başlayan veya stajyer bir çalışanın bekleyebileceği temel maaş seviyesidir.
+
+Katsayısı (b₁) = 9,424: Her bir ek deneyim yılının ortalama maaşa etkisini gösterir. Bu modele göre, her bir ek çalışma yılı yaklaşık 9,424 birim maaş artışı sağlamaktadır.
+
+Model Formülü
+Tahmini Maaş = 24.380 + (9.424 × Deneyim Yılı)
+
+Yorum : Yearsexperience de bir birim artış , Salary de 9,424 birimlik bir artışa sebep olur.
